@@ -41,17 +41,17 @@ function App() {
   return (
     <div className="container">
       <div className="componentes">
-        <h2 className="h-1">Welcome to the System</h2>
+       
         <div className="img">
           <img src={profile} alt="Descrição da imagem" />
         </div>
-        <p className="p-1">User login</p>
+        <p className="p-1">login de usuários</p>
       </div>
 
       <form onSubmit={handleSubmit} >
         <div className="infos">
           <div className="item">
-            <label htmlFor="nome">Name</label>
+            <label htmlFor="nome">Nome</label>
             <input
               type="text"
               id="nome"
@@ -71,7 +71,7 @@ function App() {
             />
           </div>
           <div className="item">
-            <label htmlFor="password">Password</label>
+            <label htmlFor="password">Senha</label>
             <input
               type="password"
               id="password"
@@ -83,11 +83,11 @@ function App() {
         </div>
         <div className="button">
           <button className="submit" type="submit">
-            Login
+            Entrar
           </button>
-          <p className="or">or</p>
+          <p className="or">ou</p>
           <button className="submit2" type="submit">
-            new account
+            Criar conta
           </button>
         </div>
       </form>
