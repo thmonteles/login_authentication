@@ -40,15 +40,12 @@ function App() {
 
   return (
     <div className="container">
-      <div className="componentes">
-       
-        <div className="img">
-          <img src={profile} alt="Descrição da imagem" />
-        </div>
-        <p className="p-1">login de usuários</p>
-      </div>
-
       <form onSubmit={handleSubmit} >
+       <div className="img">
+         <img src={profile} alt="Descrição da imagem" />
+       </div>
+       <p className="p-1">Login</p>
+   
         <div className="infos">
           <div className="item">
             <label htmlFor="nome">Nome</label>
